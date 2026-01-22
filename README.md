@@ -1,6 +1,6 @@
 # 📝 TaskForm
 
-TaskBuddy is a **React-based task management application** that helps users manage their daily tasks efficiently.  
+TaskForm is a **React-based task management application** that helps users manage their daily tasks efficiently.  
 It supports adding, deleting, completing tasks, and stores data persistently using **localStorage**.
 
 ---
@@ -12,7 +12,6 @@ It supports adding, deleting, completing tasks, and stores data persistently usi
 - ✅ **Mark as Complete** – Track completed tasks easily  
 - 💾 **Persistent Storage** – Tasks are saved using `localStorage`  
 - 📊 **Progress Tracker** – See the percentage of completed tasks  
-- 🕒 **Task History** – View, restore, or permanently delete completed tasks  
 - 📱 **Responsive Design** – Works smoothly on desktop, tablet, and mobile  
 - 🔍 **Input Validation** – Prevents empty or duplicate tasks  
 
@@ -20,11 +19,10 @@ It supports adding, deleting, completing tasks, and stores data persistently usi
 
 ## 🛠️ Tech Stack
 
-- **Frontend:** React.js  
-- **State Management:** React Hooks (`useState`, `useEffect`)  
+- **Frontend:** React.js (Vite)  
+- **State Management:** React Hooks  
 - **Storage:** Browser `localStorage`  
 - **Version Control:** Git & GitHub  
-- **Deployment:** GitHub Pages / Netlify  
 
 ---
 
@@ -33,18 +31,15 @@ It supports adding, deleting, completing tasks, and stores data persistently usi
 TaskForm/
 │
 ├── src/
-│ ├── components/
-│ │ ├── TaskInput.jsx
+│ ├── Components/
+│ │ ├── Taskform.jsx
 │ │ ├── TaskList.jsx
-│ │ ├── TaskItem.jsx
-│ │ ├── ProgressTracker.jsx
-│ │ └── TaskHistory.jsx
+│ │ └── Progresstracker.jsx
 │ │
 │ ├── App.jsx
-│ ├── index.js
-│ └── styles.css
+│ ├── main.jsx
+│ └── index.css
 │
 ├── public/
-│
 ├── package.json
 └── README.md
