@@ -30,7 +30,7 @@ It supports adding, deleting, completing tasks, and stores data persistently usi
 
 ## 📂 Project Structure
 
-TaskBuddy/
+TaskForm/
 │
 ├── src/
 │ ├── components/
