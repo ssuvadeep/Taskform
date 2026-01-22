@@ -1,4 +1,4 @@
-# 📝 TaskBuddy
+# 📝 TaskForm
 
 TaskBuddy is a **React-based task management application** that helps users manage their daily tasks efficiently.  
 It supports adding, deleting, completing tasks, and stores data persistently using **localStorage**.
